@@ -18,10 +18,10 @@ int main(void)
 		{
 			for (p = n; p <= '9'; p++)
 			{
-				if ((n == '0' || m == '0') && p != '0')
-					q = '0';
-				else
+				if ((n != '0' || m != '0') && p == '0')
 					q = m + 1;
+				else
+					q = '0';
 				for (; q <= '9'; q++)
 				{
 					putchar(n);
