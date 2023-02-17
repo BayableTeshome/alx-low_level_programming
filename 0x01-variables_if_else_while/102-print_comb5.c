@@ -18,7 +18,7 @@ int main(void)
 		{
 			for (p = n; p <= '9'; p++)
 			{
-				if (p != '0')
+				if (n == '0' && p != '0')
 					q = '0';
 				else
 					q = m + 1;
