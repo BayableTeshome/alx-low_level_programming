@@ -18,13 +18,14 @@ int main(void)
 		while (m <= '9')
 		{
 			putchar(n);
-			putchar(m);
-			if (n++ != '9')
+			putchar(m++);
+			if (n != '8')
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
+		n++;
 	}
 	putchar('\n');
 	return (0);
