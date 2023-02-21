@@ -1,7 +1,11 @@
+/*
+ * Auth: Bayable Teshome Zegeye
+ */
+
 #include "main.h"
 
 /**
- * print alphabet x10
+ * print_alphabet_x10 - Prints alphabet ten times
  */
 void print_alphabet_x10(void)
 {
