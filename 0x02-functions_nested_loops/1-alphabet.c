@@ -5,7 +5,7 @@
 #include "main.h"
 
 /**
- * print_alphabet in lowercase.
+ * print_alphabet - Prints in lowercase.
  */
 
 void print_alphabet(void)
